@@ -30,3 +30,30 @@ This repository contains:
 ### 1. Classify Your AI System (60 seconds)
 ```bash
 python tools/risk-classifier.py
+
+
+Component	Purpose	Format
+tools/risk-classifier.py	EU AI Act risk classification + ISO 42001 control mapping	Python CLI
+tools/gap-assessment.py	10-dimension AIMS maturity assessment	Python / Colab
+tools/audit-trail-generator.py	Hash-chained, tamper-evident decision logging	Python CLI
+templates/fria.md	Fundamental Rights Impact Assessment	Markdown
+templates/risk-management-system.md	AI Risk Management System documentation	Markdown
+templates/technical-documentation.md	High-risk AI system technical docs	Markdown
+templates/ai-policy.md	Organization-wide AI governance policy	Markdown
+docs/eu-ai-act-mapping.md	Clause-by-clause ISO 42001 ↔ EU AI Act correlation	Markdown
+What's Inside
+ A full AIMS conforming to ISO 42001
+ Fundamental Rights Impact Assessment (FRIA) completed
+ Technical documentation meeting Article 11 requirements
+ Risk management system operational (Article 9)
+ Data governance and training data governance (Article 10)
+ Transparency and provision of information to deployers (Article 13)
+ Human oversight measures implemented (Article 14)
+ Accuracy, robustness, and cybersecurity validated (Article 15)
+The August 2, 2026 Countdown
+AIMS Diagnostic (£5,000–£8,000): 2-week readiness assessment delivered as a comprehensive report
+Full AIMS Implementation (£15,000–£30,000): 8–12 week build of your complete management system
+Ongoing AIMS Maintenance (£4,000–£6,000/month): Monthly risk review and continuous compliance monitoring
+Enterprise Support
+License
+
